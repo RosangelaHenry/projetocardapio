@@ -40,3 +40,15 @@ h1 {
     color: #828271;
     font-size: 1.2em;
 }
+/*formulario*/
+
+form {
+    text-align:center;
+    border: 1px solid;
+  }
+
+  form {
+    border:1px solid;
+  width: 300px;
+  margin: 0 auto;
+  }
