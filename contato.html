@@ -27,19 +27,37 @@
 
                 <img src="imagem/massa2.jpg" class="imagem-cardapio">
             </div>
-                                
+            
             <div>
+                <h2>Você pode entrar em contato conosco preenchendo o formulário abaixo.</h2>
+                <p>Responderemos o mais rápido possível.</p>
+
+            <form action="mailto:contato@caseirinho.com.br" method="POST" enctype="text/plain">
+                Seu Nome:<br/>
+                <input name="nome" type="text" required/><br/>
+                Seu E-mail:<br/>
+                <input name="e-mail" type="email" required/><br/>
+                Sua Mensagem:<br/>
+                <textarea name="mensagem" rows="5" required></textarea><br/>
+                <input type="submit" value="Enviar"/>
+                <input type="reset" value="Limpar"/>
+
+            </form>
+            
+            <div>
+                
+                <p>Ou se preferir, segue os nossos outros contatos:</p>
                 <strong>e-mail:</strong>
                 contato@caseirinhodelivery.com.br
                 <strong> telefone:</strong>
-                (11) 99999-9999
-                
+                (11) 99999-9999            
+            </div>
+            <hr>
                                 
             </div><!-- Fim do conteudo -->
 
             <div id="rodape">
-                <h4> Todos os direitos reservados</h4>
-
+                <h4 class="centralizar"> 2022 - Todos os direitos reservados</h4>
             </div>
     
     </body>
